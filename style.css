@@ -126,13 +126,15 @@ header {
     campaign
 ---------------*/
 
-#campaign {
+#campaign,
+#campaign-2 {
   position: relative;
   overflow: hidden;
   z-index: 0;
 }
 
-#campaign::before {
+#campaign::before,
+#campaign-2:before {
   content: '';
   background-image: url("img/campaign-bg.jpg");
   position: absolute;
@@ -144,7 +146,8 @@ header {
   z-index: -1;
 }
 
-#campaign .container {
+#campaign .container,
+#campaign-2 .container {
   margin: 80px auto;
   border: 8px solid rgba(171, 34, 57, 0.5);
 }
