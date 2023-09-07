@@ -83,6 +83,7 @@ header {
 
 .sub-catchphrase {
   text-align: center;
+  width: 65%;
 }
 
 .sub-catchphrase p {
@@ -759,6 +760,7 @@ small {
 .sub-catchphrase {
   text-align: center;
   margin-top: 56px;
+  width: 100%;
 }
 
 .sub-catchphrase p {
@@ -771,7 +773,7 @@ small {
 }
 
 .sub-catch-pc {
-  display: block;
+  /* display: block; */
 }
 
 .selling-points {
@@ -1022,6 +1024,7 @@ small {
 
   .sub-catchphrase {
     margin-top: 168px;
+    /* margin-top: 256px; */
   }
 
   .sub-catchphrase p {
